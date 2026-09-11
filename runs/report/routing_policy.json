@@ -1,0 +1,135 @@
+{
+  "thresholds": {
+    "auto_post": {
+      "min_accuracy": 0.95,
+      "max_flip_rate": 0.05
+    },
+    "always_human": {
+      "max_accuracy": 0.8,
+      "min_flip_rate": 0.2
+    },
+    "flip_rate_source": "max_of_conditions"
+  },
+  "fields": [
+    {
+      "field": "aggregate_limit",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "building_value",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "business_description",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "construction_type",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "contents_value",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "deductible",
+      "accuracy": 0.6,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "effective_date",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "expiration_date",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "industry_code",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "industry_code_type",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "loss_history",
+      "accuracy": 0.86,
+      "flip_rate": 0.52,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.52,
+      "class": "review"
+    },
+    {
+      "field": "mailing_address",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "named_insured",
+      "accuracy": 0.6,
+      "flip_rate": 0.16,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.16,
+      "class": "review"
+    },
+    {
+      "field": "per_occurrence_limit",
+      "accuracy": 0.8,
+      "flip_rate": 0.0,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.0,
+      "class": "review"
+    },
+    {
+      "field": "year_built",
+      "accuracy": 0.6,
+      "flip_rate": 0.26,
+      "flip_rate_temp_0": 0.0,
+      "flip_rate_temp_default": 0.26,
+      "class": "always_human"
+    }
+  ]
+}

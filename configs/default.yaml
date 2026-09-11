@@ -1,0 +1,28 @@
+# Global experiment defaults. Secrets stay in .env.
+
+seed: 42
+corpus_size_per_tier: 10
+corpus_output_dir: data/corpus
+
+stability:
+  n_runs: 5
+  conditions:
+    - temp_0
+    - temp_default
+
+spend_cap_usd: 5.00
+rate_limit_rpm: 120
+
+providers:
+  openai:
+    model: gpt-4o-mini
+    default_temperature: 1.0
+  anthropic:
+    model: claude-3-5-haiku-latest
+    default_temperature: 1.0
+
+default_provider: local
+
+text_match:
+  # Normalized token-overlap threshold for free-text fields
+  token_overlap_threshold: 0.8

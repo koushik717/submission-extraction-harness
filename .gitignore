@@ -1,0 +1,16 @@
+.env
+__pycache__/
+.venv/
+runs/*
+!runs/report/
+!runs/report/**
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+*.egg-info/
+.DS_Store
+data/corpus/
+*.pdf
+!tests/fixtures/**

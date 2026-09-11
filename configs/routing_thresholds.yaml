@@ -1,0 +1,17 @@
+# Per-field routing cutoffs. Not hardcoded in source.
+
+# auto_post: accuracy >= min_accuracy AND flip_rate <= max_flip_rate
+# always_human: accuracy < always_human_max_accuracy AND flip_rate > always_human_min_flip_rate
+# review: everything else
+
+auto_post:
+  min_accuracy: 0.95
+  max_flip_rate: 0.05
+
+always_human:
+  max_accuracy: 0.80
+  min_flip_rate: 0.20
+
+# Flip rates are measured under each temperature condition separately.
+# Routing uses the worse (higher) flip rate across conditions unless overridden.
+flip_rate_source: max_of_conditions

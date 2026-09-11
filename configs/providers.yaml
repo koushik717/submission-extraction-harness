@@ -1,0 +1,13 @@
+# Provider model map (secrets stay in .env)
+
+openai:
+  model: gpt-4o-mini
+  default_temperature: 1.0
+
+anthropic:
+  model: claude-3-5-haiku-latest
+  default_temperature: 1.0
+
+local:
+  model: local-pdf-parser
+  default_temperature: 1.0
